@@ -28,7 +28,6 @@ body {
     height: 300px;
     background: url(image-product-desktop.jpg) no-repeat center;
     background-size: cover;
-    border-radius: 1rem;
 }
 
 .card .card-body {
@@ -42,7 +41,6 @@ body {
     font-weight: 500;
     color: #6c7289;
     letter-spacing: 0.3rem;
-    
 }
 
 .card .card-body h2 {
@@ -78,18 +76,22 @@ body {
     font-weight: 700;
     color: #FFF;
     background-color: #3c8067;
-    padding: 1rem 5.3rem 1rem 5.3rem;
+    padding: 1rem 8rem 1rem 8rem;
     border-style: none;
     border-radius: 1rem;
+    display: flex;
+    margin: 0 auto;
     
+}
+
+.card .card-body button:active {
+    background-color: #192f19; 
 }
 
 /* When the browser is at least 425px and above */
 @media screen and (min-width: 425px) {
     .card .card-img, .card .card-body {
         width: 50%;
+        height: auto;
     }
-    .card .card-body button {
-        padding: 1rem 8.3rem 1rem 8.3rem;
   }
-}
